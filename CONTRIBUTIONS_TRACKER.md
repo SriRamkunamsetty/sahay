@@ -6,57 +6,73 @@
 > **Affiliation:** IEEE Open Source Week Contributor  
 > **Upstream Repository:** [archangel2006/sahay](https://github.com/archangel2006/sahay)  
 > **Fork Repository:** [SriRamkunamsetty/sahay](https://github.com/SriRamkunamsetty/sahay)  
-> **Upstream Head:** `ef34756` (PR template & updated contribution guidelines)  
-> **Total Features Ready in Fork:** 10 Active Features + 2 Upstream Merged  
+> **Upstream Head:** `1665ad9` (Merged Face & Family Match cognitive activity)  
+> **Active Assigned Issue:** 🎯 **Issue #6 (Officially Assigned to @SriRamkunamsetty)**  
+> **Active Open PR:** 🟢 **[PR #40: Speech Synthesis Settings](https://github.com/archangel2006/sahay/pull/40)**  
 > **Mergeability Status:** ✅ **100% CLEAN — ZERO CONFLICTS ACROSS ALL BRANCHES**  
-> **Mentor Tag Status:** 📣 Tagged `@archangel2006` on Issue #6 & PR #20 for review & assignment  
-> **Last Status Sync:** 17 November 2026, 06:02 PM IST  
+> **Last Status Sync:** 18 November 2026, 05:25 AM IST  
 
 ---
 
-## 1. Mentor Tagging & Active Review Requests
+## 1. Active Pull Request (Officially Assigned)
 
-| Target | Direct Link | Action Taken | Current Review Status |
-|---|---|---|---|
-| **Issue #6** | [Comment #6948115900](https://github.com/archangel2006/sahay/issues/6#issuecomment-6948115900) | Tagged `@archangel2006` requesting official assignment (noting `@Shainaroyyy`'s approval) | ⏳ Awaiting mentor assignment |
-| **PR #20** | [Comment #6948116306](https://github.com/archangel2006/sahay/pull/20#issuecomment-6948116306) | Tagged `@archangel2006` requesting review, reopening, and merge as single active PR | ⏳ Awaiting mentor review & reopen |
-
----
-
-## 2. Upstream Pull & Merge Conflict Audit (Latest Commit `ef34756`)
-
-All changes from `upstream/main` (including `.github/pull_request_template.md` and revised `CONTRIBUTIONS.md`) have been fetched, merged into `main`, and all feature branches were tested with `git merge-tree`:
-
-| Branch Name | PR # | Target Issue | Mergeability Test | Conflict Status | Files Modified |
-|---|:---:|:---:|:---:|:---:|:---:|
-| `enhancement/speech-synthesis-settings` | **[#20](https://github.com/archangel2006/sahay/pull/20)** | Issue #6 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 3 files |
-| `feat/face-family-match` | **[#17](https://github.com/archangel2006/sahay/pull/17)** | Issue #1 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 3 files |
-| `feat/number-recall-digit-span` | **[#19](https://github.com/archangel2006/sahay/pull/19)** | Issue #3 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 3 files |
-| `feat/browser-speech-recognition` | **[#21](https://github.com/archangel2006/sahay/pull/21)** | Issue #4 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 1 file |
-| `api/context-aware-gemini-assistant` | **[#22](https://github.com/archangel2006/sahay/pull/22)** | Issue #5 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 3 files |
-| `i18n/regional-language-dictionaries` | **[#23](https://github.com/archangel2006/sahay/pull/23)** | Issue #10 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 6 files |
-| `feat/memory-book-voice-recorder` | **[#24](https://github.com/archangel2006/sahay/pull/24)** | Issue #7 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 2 files |
-| `feat/multi-elder-switcher-pin` | **[#25](https://github.com/archangel2006/sahay/pull/25)** | Issue #9 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 3 files |
-| `feat/clinical-summary-pdf-export` | **[#26](https://github.com/archangel2006/sahay/pull/26)** | Issue #11 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 2 files |
-| `feat/interactive-safe-zone-map` | **[#27](https://github.com/archangel2006/sahay/pull/27)** | Issue #8 *(Open)* | ✅ **CLEAN** | **0 Conflicts** | 3 files |
-| `fix/memory-match-duplicate-icons` | **[#16](https://github.com/archangel2006/sahay/pull/16)** | Issue #12 *(Closed)* | ⚪ *Superseded* | **0 Conflicts** | Solved in upstream `a5519d2` |
-| `feat/odd-one-out` | **[#18](https://github.com/archangel2006/sahay/pull/18)** | Issue #2 *(Closed)* | ⚪ *Superseded* | **0 Conflicts** | Solved in upstream PR #15 |
+| PR # | Status | Target Issue | Branch Name | Mergeability | Actions & Next Steps |
+|:---:|:---:|:---:|---|:---:|---|
+| **[#40](https://github.com/archangel2006/sahay/pull/40)** | 🟢 **OPEN & MERGEABLE** | **[Issue #6](https://github.com/archangel2006/sahay/issues/6)** *(Assigned)* | `enhancement/speech-synthesis-settings` | ✅ `mergeable: true` (0 conflicts) | **Under Active Review**: Formatted to new template, rebased on `1665ad9`, passes `npm run build`. Ready for merge! |
 
 ---
 
-## 3. Real-Time Status & Next Steps
+## 2. Upstream Merge Audit & Conflict Verification (Against `1665ad9`)
 
-| PR # | Status | Target Issue | Branch Name in Fork | Strategic Action & Next Step |
-|:---:|:---:|:---:|---|---|
-| **[#20](https://github.com/archangel2006/sahay/pull/20)** | 🟡 **PRIORITY 1: REVIEW REQUESTED** | Issue #6 *(Open)* | `enhancement/speech-synthesis-settings` | Tagged `@archangel2006` on Issue #6 & PR #20 for review & reopen. |
-| **[#17](https://github.com/archangel2006/sahay/pull/17)** | 🔵 **QUEUE - STEP 2** | Issue #1 *(Open)* | `feat/face-family-match` | Rebased & ready. Claim Issue #1 as soon as PR #20 merges. |
-| **[#19](https://github.com/archangel2006/sahay/pull/19)** | 🔵 **QUEUE - STEP 3** | Issue #3 *(Open)* | `feat/number-recall-digit-span` | Rebased & ready. Claim Issue #3 with screenshot proof. |
-| **[#21](https://github.com/archangel2006/sahay/pull/21)** | 🔵 **QUEUE - STEP 4** | Issue #4 *(Open)* | `feat/browser-speech-recognition` | Rebased & ready in fork. |
-| **[#22](https://github.com/archangel2006/sahay/pull/22)** | 🔵 **QUEUE - STEP 5** | Issue #5 *(Open)* | `api/context-aware-gemini-assistant` | Rebased & ready in fork. |
-| **[#23](https://github.com/archangel2006/sahay/pull/23)** | 🔵 **QUEUE - STEP 6** | Issue #10 *(Open)* | `i18n/regional-language-dictionaries` | Rebased & ready in fork. |
-| **[#24](https://github.com/archangel2006/sahay/pull/24)** | 🔵 **QUEUE - STEP 7** | Issue #7 *(Open)* | `feat/memory-book-voice-recorder` | Rebased & ready in fork. |
-| **[#25](https://github.com/archangel2006/sahay/pull/25)** | 🔵 **QUEUE - STEP 8** | Issue #9 *(Open)* | `feat/multi-elder-switcher-pin` | Rebased & ready in fork. |
-| **[#26](https://github.com/archangel2006/sahay/pull/26)** | 🔵 **QUEUE - STEP 9** | Issue #11 *(Open)* | `feat/clinical-summary-pdf-export` | Rebased & ready in fork. |
-| **[#27](https://github.com/archangel2006/sahay/pull/27)** | 🔵 **QUEUE - STEP 10** | Issue #8 *(Open)* | `feat/interactive-safe-zone-map` | Rebased & ready in fork. |
-| **[#16](https://github.com/archangel2006/sahay/pull/16)** | ⚪ **SUPERSEDED** | Issue #12 *(Closed)* | `fix/memory-match-duplicate-icons` | Solved upstream in commit `a5519d2` (PR #15). |
-| **[#18](https://github.com/archangel2006/sahay/pull/18)** | ⚪ **SUPERSEDED** | Issue #2 *(Closed)* | `feat/odd-one-out` | Solved upstream in PR #15 (`14b4208`). |
+All branches were tested with `git merge-tree` against the latest upstream commit `1665ad9`:
+
+| Feature Branch | Original PR | Target Issue | Current Upstream Issue Status | Branch Mergeability | Strategic Position |
+|---|:---:|:---:|---|:---:|---|
+| `enhancement/speech-synthesis-settings` | **#20 ➔ #40** | **Issue #6** | 🎯 **Assigned to @SriRamkunamsetty** | ✅ **0 CONFLICTS** | 🟢 **ACTIVE PR #40 SUBMITTED** |
+| `feat/browser-speech-recognition` | #21 | **Issue #4** | 🟢 **OPEN (UNASSIGNED)** | ✅ **0 CONFLICTS** | 🔵 Ready in fork. Claim immediately after PR #40 merges. |
+| `api/context-aware-gemini-assistant` | #22 | **Issue #5** | 🟢 **OPEN (UNASSIGNED)** | ✅ **0 CONFLICTS** | 🔵 Ready in fork. Claim immediately after PR #40 merges. |
+| `feat/interactive-safe-zone-map` | #27 | **Issue #8** | 🟢 **OPEN (UNASSIGNED)** | ✅ **0 CONFLICTS** | 🔵 Ready in fork. Claim immediately after PR #40 merges. |
+| `feat/number-recall-digit-span` | #19 | Issue #3 | 🟡 Assigned to Sanjai-Gopal | ✅ **0 CONFLICTS** | 🟠 Monitored (Code ready in fork under 5-day rule). |
+| `feat/memory-book-voice-recorder` | #24 | Issue #7 | 🟡 Assigned to Aditya8369 | ✅ **0 CONFLICTS** | 🟠 Monitored (Code ready in fork under 5-day rule). |
+| `feat/multi-elder-switcher-pin` | #25 | Issue #9 | 🟡 Assigned to ahr1223 | ✅ **0 CONFLICTS** | 🟠 Monitored (Code ready in fork under 5-day rule). |
+| `i18n/regional-language-dictionaries` | #23 | Issue #10 | 🟡 Assigned to nisha0115kumari | ✅ **0 CONFLICTS** | 🟠 Monitored (Code ready in fork under 5-day rule). |
+| `feat/clinical-summary-pdf-export` | #26 | Issue #11 | 🟡 Assigned to Sanjai-Gopal | ✅ **0 CONFLICTS** | 🟠 Monitored (Code ready in fork under 5-day rule). |
+| `feat/face-family-match` | #17 | Issue #1 | ⚪ **CLOSED (Merged Upstream)** | ✅ **0 CONFLICTS** | ⚪ Solved upstream in PR #28 (`1665ad9`). |
+| `feat/odd-one-out` | #18 | Issue #2 | ⚪ **CLOSED (Merged Upstream)** | ✅ **0 CONFLICTS** | ⚪ Solved upstream in PR #15 (`14b4208`). |
+| `fix/memory-match-duplicate-icons` | #16 | Issue #12 | ⚪ **CLOSED (Merged Upstream)** | ✅ **0 CONFLICTS** | ⚪ Solved upstream in commit `a5519d2`. |
+
+---
+
+## 3. Overnight Mentor Communications & Actions (@archangel2006)
+
+1. **Official Assignment of Issue #6**:
+   - Project mentor **@archangel2006** officially unassigned `@Shainaroyyy` and assigned **[Issue #6](https://github.com/archangel2006/sahay/issues/6)** to **@SriRamkunamsetty**.
+2. **Clarification on PR #20 & PR #40**:
+   - On PR #20, the mentor commented: *"Just attach a video of working of the feature as well, and new changes have been committed so make sure repo is up to date."*
+   - The mentor attached a screenshot showing that GitHub prevented reopening PR #20 (*"I am unable to reopen this PR"*).
+   - In response, we created fresh **[PR #40](https://github.com/archangel2006/sahay/pull/40)** on top of `1665ad9` adhering to the new PR template, and commented links on PR #20 and Issue #6.
+3. **Merge of Issue #1 (Face & Family Match)**:
+   - The mentor merged PR #28 (`1665ad9`), successfully closing Issue #1.
+
+---
+
+## 4. Evaluation of Mentor Recommendations: Are They Really Useful?
+
+| Mentor Recommendation | Practical Utility | Verification Assessment |
+|---|:---:|---|
+| **1. "Ensure repo is up-to-date with new commits"** | **CRITICAL** | When `1665ad9` merged Face & Family Match, it changed `ActivityHost.tsx` and `activityRegistry.ts`. By pulling and rebasing immediately, we guaranteed PR #40 has **0 merge conflicts** and will merge cleanly with one click. |
+| **2. "One PR at a time / Assigned issues only"** | **VERY HIGH** | By focusing exclusively on Issue #6, Sri Ram got officially assigned. This protects the work and guarantees review priority. |
+| **3. "Attach a working video demonstration"** | **HIGH IMPACT** | Visual proof gives the maintainer instant verification of Web Speech API sliders and playback on `localhost:3000` without manual branch checkout. |
+
+---
+
+## 5. Next Strategic Action Plan
+
+1. **Focus on PR #40**:
+   - Run `npm run dev` and record a quick 10–15s clip demonstrating the Speech Settings sliders (rate, pitch) and the "Test Voice Sample" button.
+   - Drag and drop the `.mp4` / `.webm` / `.gif` into **[PR #40's comment thread](https://github.com/archangel2006/sahay/pull/40)**.
+2. **Next Issue Claim (Unassigned Queue)**:
+   - As soon as PR #40 is merged, immediately claim one of the remaining **UNASSIGNED** issues where our code is already 100% complete:
+     - **Issue #4**: Browser-Native Speech Recognition (`feat/browser-speech-recognition`)
+     - **Issue #5**: Context-Aware Daily Schedule Injection (`api/context-aware-gemini-assistant`)
+     - **Issue #8**: Interactive Safe-Zone Geofencing Map (`feat/interactive-safe-zone-map`)
