@@ -83,6 +83,16 @@ body.fs-xlarge {
   animation: riseIn 0.3s ease forwards;
 }
 
+@keyframes softShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+.animate-soft-shake {
+  animation: softShake 0.4s ease-in-out;
+}
+
 .animate-memwave-1 { animation: memwave 0.9s ease-in-out infinite 0s; }
 .animate-memwave-2 { animation: memwave 0.9s ease-in-out infinite 0.15s; }
 .animate-memwave-3 { animation: memwave 0.9s ease-in-out infinite 0.3s; }
