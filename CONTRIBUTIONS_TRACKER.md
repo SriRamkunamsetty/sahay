@@ -9,13 +9,23 @@
 > **Upstream Head:** `ef34756` (PR template & updated contribution guidelines)  
 > **Total Features Ready in Fork:** 10 Active Features + 2 Upstream Merged  
 > **Mergeability Status:** ✅ **100% CLEAN — ZERO CONFLICTS ACROSS ALL BRANCHES**  
-> **Last Status Sync:** 17 November 2026, 05:46 PM IST  
+> **Mentor Tag Status:** 📣 Tagged `@archangel2006` on Issue #6 & PR #20 for review & assignment  
+> **Last Status Sync:** 17 November 2026, 06:02 PM IST  
 
 ---
 
-## 1. Upstream Pull & Merge Conflict Audit (Latest Commit `ef34756`)
+## 1. Mentor Tagging & Active Review Requests
 
-All changes from `upstream/main` (including the newly added `.github/pull_request_template.md` and revised `CONTRIBUTIONS.md`) have been fetched, merged into `main`, and all feature branches were tested with `git merge-tree`:
+| Target | Direct Link | Action Taken | Current Review Status |
+|---|---|---|---|
+| **Issue #6** | [Comment #6948115900](https://github.com/archangel2006/sahay/issues/6#issuecomment-6948115900) | Tagged `@archangel2006` requesting official assignment (noting `@Shainaroyyy`'s approval) | ⏳ Awaiting mentor assignment |
+| **PR #20** | [Comment #6948116306](https://github.com/archangel2006/sahay/pull/20#issuecomment-6948116306) | Tagged `@archangel2006` requesting review, reopening, and merge as single active PR | ⏳ Awaiting mentor review & reopen |
+
+---
+
+## 2. Upstream Pull & Merge Conflict Audit (Latest Commit `ef34756`)
+
+All changes from `upstream/main` (including `.github/pull_request_template.md` and revised `CONTRIBUTIONS.md`) have been fetched, merged into `main`, and all feature branches were tested with `git merge-tree`:
 
 | Branch Name | PR # | Target Issue | Mergeability Test | Conflict Status | Files Modified |
 |---|:---:|:---:|:---:|:---:|:---:|
@@ -34,23 +44,11 @@ All changes from `upstream/main` (including the newly added `.github/pull_reques
 
 ---
 
-## 2. Official IEEE Open Source Week Guidelines (Issue #36)
-
-On **17 November 2026**, project mentor **@archangel2006** published the official repository guidelines under **[Issue #36](https://github.com/archangel2006/sahay/issues/36)** and updated `CONTRIBUTIONS.md`:
-
-> ### 📢 Official Rules:
-> 1. **One PR at a time:** Only one open PR allowed per contributor. Wait for it to be reviewed and merged before opening another.
-> 2. **Assigned issues only:** Contributors must ask to be assigned on the issue before submitting.
-> 3. **Proof of work:** Every code/UI PR must include a short screen recording (`.mp4`/`.webm`/`.gif`) or screenshots showing changes running locally at `http://localhost:3000`.
-> 4. **No bulk PRs:** Bulk or unverified submissions are prohibited and closed by policy.
-
----
-
 ## 3. Real-Time Status & Next Steps
 
 | PR # | Status | Target Issue | Branch Name in Fork | Strategic Action & Next Step |
 |:---:|:---:|:---:|---|---|
-| **[#20](https://github.com/archangel2006/sahay/pull/20)** | 🟡 **PRIORITY 1: READY TO REOPEN** | Issue #6 *(Open)* | `enhancement/speech-synthesis-settings` | **Active Focus**: Attach 15s video demo, request mentor reopen & merge. (@Shainaroyyy approved). |
+| **[#20](https://github.com/archangel2006/sahay/pull/20)** | 🟡 **PRIORITY 1: REVIEW REQUESTED** | Issue #6 *(Open)* | `enhancement/speech-synthesis-settings` | Tagged `@archangel2006` on Issue #6 & PR #20 for review & reopen. |
 | **[#17](https://github.com/archangel2006/sahay/pull/17)** | 🔵 **QUEUE - STEP 2** | Issue #1 *(Open)* | `feat/face-family-match` | Rebased & ready. Claim Issue #1 as soon as PR #20 merges. |
 | **[#19](https://github.com/archangel2006/sahay/pull/19)** | 🔵 **QUEUE - STEP 3** | Issue #3 *(Open)* | `feat/number-recall-digit-span` | Rebased & ready. Claim Issue #3 with screenshot proof. |
 | **[#21](https://github.com/archangel2006/sahay/pull/21)** | 🔵 **QUEUE - STEP 4** | Issue #4 *(Open)* | `feat/browser-speech-recognition` | Rebased & ready in fork. |
@@ -62,11 +60,3 @@ On **17 November 2026**, project mentor **@archangel2006** published the officia
 | **[#27](https://github.com/archangel2006/sahay/pull/27)** | 🔵 **QUEUE - STEP 10** | Issue #8 *(Open)* | `feat/interactive-safe-zone-map` | Rebased & ready in fork. |
 | **[#16](https://github.com/archangel2006/sahay/pull/16)** | ⚪ **SUPERSEDED** | Issue #12 *(Closed)* | `fix/memory-match-duplicate-icons` | Solved upstream in commit `a5519d2` (PR #15). |
 | **[#18](https://github.com/archangel2006/sahay/pull/18)** | ⚪ **SUPERSEDED** | Issue #2 *(Closed)* | `feat/odd-one-out` | Solved upstream in PR #15 (`14b4208`). |
-
----
-
-## 4. Verification & Build Results
-
-* **`git merge-tree` on all 12 branches**: Passed — 0 merge conflicts.
-* **`npm run lint` (`tsc --noEmit`)**: Passed — 0 errors.
-* **`npm run build`**: Passed — 1,700 modules transformed, production client bundle built in 7.01s, server bundled with esbuild in 30ms.
