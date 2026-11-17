@@ -83,14 +83,18 @@ design: revamp Community page layout for better clarity
 
 # 🧾 Issue & Pull Request Rules
 
-1. Browse through existing issues before creating new ones.
+1. Check existing issues before creating new ones.
 2. Get assigned to an issue before starting work.
 3. No duplicate or spam issues.
-4. If no PR or update is made within 5 days of assignment, it may be reassigned.
-5. Major issues may have sub-issues — feel free to request one if you want to contribute to a smaller part.
-6. Always mention issue number in your PR description (e.g., “Fixes #12”).
-
+4. Only **one open PR** is allowed at a time. Wait for it to be reviewed and merged before opening another.
+5. Issues with no PR or progress update within **5 days** may be reassigned.
+6. Major issues may have sub-issues. Feel free to request one to work on a smaller part.
+7. Always reference the issue number in your PR description (e.g., `Fixes #12`).
+8. Every code or UI PR must include screenshots or a short screen recording showing changes running locally at `http://localhost:3000`.
+9. Ensure `npm run build` passes before submitting a PR.
+10. Bulk, low-effort, or unverified AI-generated PRs are prohibited. Contributors must understand and verify their submissions. Repeated violations may result in a repository ban and disqualification from Open Source Week.
 ---
+
 ## Sahay Contribution Help
 
 ## 🌟 The "Golden Skeleton" Philosophy
