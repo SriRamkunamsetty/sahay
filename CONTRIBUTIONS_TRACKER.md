@@ -9,17 +9,17 @@
 > **Upstream Head:** `1665ad9` (Merged Face & Family Match cognitive activity)  
 > **Active Assigned Issue:** 🎯 **[Issue #6](https://github.com/archangel2006/sahay/issues/6) (Officially Assigned to @SriRamkunamsetty)**  
 > **Active Open PR:** 🟢 **[PR #40: Speech Synthesis Settings](https://github.com/archangel2006/sahay/pull/40)**  
-> **Visual Proof Status:** 🎥 Video & 📸 Screenshots committed to branch and embedded in PR #40  
+> **Mentor Review Notification:** 📣 Tagged `@archangel2006` on PR #40 ([Comment #7014981743](https://github.com/archangel2006/sahay/pull/40#issuecomment-7014981743)) & Issue #6 ([Comment #7014982256](https://github.com/archangel2006/sahay/issues/6#issuecomment-7014982256))  
 > **Mergeability Status:** ✅ **100% CLEAN — ZERO CONFLICTS ACROSS ALL BRANCHES**  
-> **Last Status Sync:** 18 November 2026, 01:05 PM IST  
+> **Last Status Sync:** 19 November 2026, 09:50 PM IST  
 
 ---
 
-## 1. Active Pull Request (Officially Assigned & Proof Attached)
+## 1. Active Pull Request (Officially Assigned & Review Requested)
 
-| PR # | Status | Target Issue | Branch Name | Mergeability | Visual Proof Included |
-|:---:|:---:|:---:|---|:---:|:---:|
-| **[#40](https://github.com/archangel2006/sahay/pull/40)** | 🟢 **OPEN & READY TO MERGE** | **[Issue #6](https://github.com/archangel2006/sahay/issues/6)** *(Assigned)* | `enhancement/speech-synthesis-settings` | ✅ `mergeable: true` (0 conflicts) | 🎥 Video (`sahay_speech_synthesis_demo.webm`) + 3 High-Res Screenshots |
+| PR # | Status | Target Issue | Branch Name | Mergeability | Review Request Link | Proof Included |
+|:---:|:---:|:---:|---|:---:|:---:|:---:|
+| **[#40](https://github.com/archangel2006/sahay/pull/40)** | 🟢 **OPEN & READY TO MERGE** | **[Issue #6](https://github.com/archangel2006/sahay/issues/6)** *(Assigned)* | `enhancement/speech-synthesis-settings` | ✅ `mergeable: true` (0 conflicts) | [Comment #7014981743](https://github.com/archangel2006/sahay/pull/40#issuecomment-7014981743) | 🎥 Video + 📸 Screenshots |
 
 ### Visual Proof Assets Embedded in PR #40:
 * **Settings Module**: `docs/proofs/speech_synthesis_settings/02_settings_view.png`
